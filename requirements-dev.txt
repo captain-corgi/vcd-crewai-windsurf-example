@@ -1,0 +1,69 @@
+# Development Dependencies for CrewAI Notion Chatbot
+
+# Code Quality and Formatting
+black>=23.0.0                    # Code formatter
+isort>=5.12.0                    # Import sorting
+flake8>=6.0.0                    # Linting
+pylint>=3.0.0                    # Advanced linting
+mypy>=1.7.0                      # Type checking
+
+# Testing
+pytest>=7.4.0                    # Testing framework
+pytest-cov>=4.1.0               # Coverage reporting
+pytest-mock>=3.12.0             # Mocking utilities
+pytest-asyncio>=0.21.0          # Async testing support
+coverage>=7.3.0                  # Coverage measurement
+
+# Development Tools
+pre-commit>=3.5.0                # Git hooks
+bump2version>=1.0.1             # Version bumping
+gitpython>=3.1.40               # Git operations in Python
+python-semantic-release>=8.5.0  # Automated semantic releases
+
+# Documentation
+sphinx>=7.1.0                   # Documentation generation
+sphinx-rtd-theme>=1.3.0         # ReadTheDocs theme
+myst-parser>=2.0.0              # Markdown support for Sphinx
+sphinx-autodoc-typehints>=1.24.0 # Type hints in docs
+
+# Jupyter (for development notebooks)
+jupyter>=1.0.0                  # Jupyter notebook
+ipykernel>=6.25.0               # IPython kernel
+matplotlib>=3.7.0               # Plotting (for analysis)
+pandas>=2.1.0                   # Data analysis (for logs/metrics)
+
+# Security
+bandit>=1.7.5                   # Security linting
+safety>=2.3.0                   # Dependency vulnerability checking
+
+# Performance and Profiling
+memory-profiler>=0.61.0         # Memory usage profiling
+line-profiler>=4.1.0            # Line-by-line profiling
+py-spy>=0.3.14                  # Sampling profiler
+
+# Additional Development Utilities
+python-dotenv>=1.0.0            # Environment variable management (already in main requirements)
+requests-mock>=1.11.0           # HTTP request mocking
+freezegun>=1.2.2                # Time mocking for tests
+factory-boy>=3.3.0              # Test data generation
+faker>=19.12.0                  # Fake data generation
+
+# Git Flow
+gitflow>=0.5.1                  # Git flow extension (if available via pip)
+
+# Environment Management
+pipreqs>=0.4.13                 # Generate requirements.txt from imports
+pip-tools>=7.3.0                # Dependency management
+virtualenv>=20.24.0             # Virtual environment management
+
+# Monitoring and Debugging
+pdb++>=0.10.3                   # Enhanced debugger
+icecream>=2.1.3                 # Debugging print statements
+rich>=13.6.0                    # Rich text and beautiful formatting
+
+# API Testing
+httpx>=0.25.0                   # HTTP client for testing
+responses>=0.23.0               # HTTP response mocking
+
+# Load Testing (for performance testing)
+locust>=2.17.0                  # Load testing tool
